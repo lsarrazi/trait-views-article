@@ -2,7 +2,7 @@
 
 **Reference implementation for experimentation and discussion**
 
-This repository contains a reference implementation of the concepts explored in the article "Trait Views: exposing behavior without inheritance".
+This repository contains a reference implementation of the concepts explored in the article *"Trait Views: exposing behavior without inheritance"*.
 
 ## ⚠️ Important Notice
 
@@ -43,15 +43,10 @@ Read through the TypeScript source code in `src/trait-views.ts` and examine the 
 
 ### Running Examples
 
-The examples are written in TypeScript. To run them, you can use `ts-node` or compile them first:
+The examples are written in TypeScript. To run them, you can use `tsx` or compile them first:
 
 ```bash
-# Using ts-node (if installed)
-npx ts-node examples/complete-test-trait.ts
-
-# Or compile and run
-npx tsc examples/complete-test-trait.ts --module commonjs --target es2020
-node examples/complete-test-trait.js
+npx tsx examples/complete-test-trait.ts
 ```
 
 ## Contributing
