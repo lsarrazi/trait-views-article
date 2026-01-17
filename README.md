@@ -47,11 +47,11 @@ The examples are written in TypeScript. To run them, you can use `ts-node` or co
 
 ```bash
 # Using ts-node (if installed)
-npx ts-node examples/observable.ts
+npx ts-node examples/complete-test-trait.ts
 
 # Or compile and run
-npx tsc examples/observable.ts --module commonjs --target es2020
-node examples/observable.js
+npx tsc examples/complete-test-trait.ts --module commonjs --target es2020
+node examples/complete-test-trait.js
 ```
 
 ## Contributing
