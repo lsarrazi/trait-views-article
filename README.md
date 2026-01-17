@@ -2,7 +2,7 @@
 
 **Reference implementation for experimentation and discussion**
 
-This repository contains a reference implementation of the concepts explored in the article "Trait Views: exposing behavior in JavaScript without inheritance".
+This repository contains a reference implementation of the concepts explored in the article "Trait Views: exposing behavior without inheritance".
 
 ## ⚠️ Important Notice
 
@@ -39,7 +39,20 @@ git clone https://github.com/lsarrazi/trait-views-article.git
 cd trait-views-article
 ```
 
-Read through the source code in `src/` and run the examples in `examples/` to understand how trait views work.
+Read through the TypeScript source code in `src/trait-views.ts` and examine the examples in `examples/` to understand how trait views work.
+
+### Running Examples
+
+The examples are written in TypeScript. To run them, you can use `ts-node` or compile them first:
+
+```bash
+# Using ts-node (if installed)
+npx ts-node examples/observable.ts
+
+# Or compile and run
+npx tsc examples/observable.ts --module commonjs --target es2020
+node examples/observable.js
+```
 
 ## Contributing
 
